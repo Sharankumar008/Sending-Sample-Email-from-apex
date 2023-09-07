@@ -1,0 +1,11 @@
+public class SendEmail {
+
+    public void sendEmailNotification(){
+        String toAddress='test@gmail.com';
+        String subject='test email';
+        String body='test Email for<br/><b><u>YOUR NAME</u></b><br/>';
+        body+='from Apex class';
+        
+        EmailHelper.sendEmail(toAddress, subject, body); calling email helper
+    }
+}
