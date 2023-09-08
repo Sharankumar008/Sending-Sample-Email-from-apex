@@ -6,6 +6,7 @@ public class SendEmail {
         String body='test Email for<br/><b><u>YOUR NAME</u></b><br/>';
         body+='from Apex class';
         
-        EmailHelper.sendEmail(toAddress, subject, body); calling email helper
+        EmailHelper.sendEmail(toAddress, subject, body); 
+        //calling email helper
     }
 }
